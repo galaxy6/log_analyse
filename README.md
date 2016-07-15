@@ -25,11 +25,20 @@ Introduce
 Usage
 
 Usage: ./log_analyse.sh.sh [options] [FILE]
+
 Options:
 xxx.sh xss    [FILE] 获取成功访问请求中带有xss关键字的日志列表
+
 xxx.sh sql    [FILE] 获取成功访问请求中带有sql关键字的日志列表
+
 xxx.sh other  [FILE] 获取成功访问请求中除xss和sql其他漏洞的日志列表
+
 xxx.sh act1   [FILE] 统计带有攻击关键词的次数和对应恶意ip地址
+
 xxx.sh act2   [FILE] 统计访问最多的请求接口并显示次数和对应接口
+
 xxx.sh act3   [FILE] 统计访问最多的ip并显示次数和对应ip
+
 xxx.sh act4   [FILE] 统计服务器响应时长超过3秒的日志
+
+
