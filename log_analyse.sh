@@ -9,7 +9,7 @@
 # --------------------------------------------------------------------
 
 help(){
-	echo  "Usage: ./log_anaylse.sh [options] [FILE]       "
+	echo  "Usage: ./log_analyse.sh [options] [FILE]       "
 	echo  "Options:"
 	echo  "xxx.sh xss    [FILE] 获取成功访问请求中带有xss关键字的日志列表"
 	echo  "xxx.sh sql    [FILE] 获取成功访问请求中带有sql关键字的日志列表"
