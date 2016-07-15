@@ -1,6 +1,6 @@
 #!/bin/bash
 # --------------------------------------------------------------------
-#      文件名:analyse_log.sh
+#      文件名:anaylse_log.sh
 #      版本： v_1.0
 #      日期：2016/7
 #      作者：nextdoor
@@ -9,7 +9,7 @@
 # --------------------------------------------------------------------
 
 help(){
-	echo  "Usage: ./action.sh [options] [FILE]       "
+	echo  "Usage: ./log_anaylse.sh [options] [FILE]       "
 	echo  "Options:"
 	echo  "xxx.sh xss    [FILE] 获取成功访问请求中带有xss关键字的日志列表"
 	echo  "xxx.sh sql    [FILE] 获取成功访问请求中带有sql关键字的日志列表"
