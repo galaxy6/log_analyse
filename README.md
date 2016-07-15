@@ -1,5 +1,5 @@
-# log_anaylse
-##log_anaylse.sh
+# log_analyse
+##log_analyse.sh
 
 这个脚本的主要作用是整理请求成功且带有关键词的nginx日志，它可以节约我们分析日志的所用的时间。
 
@@ -24,7 +24,7 @@
 
 ##Usage
 
-Usage: ./log_anaylse.sh.sh [options] [FILE]
+Usage: ./log_analyse.sh.sh [options] [FILE]
 
 Options:
 xxx.sh xss    [FILE] 获取成功访问请求中带有xss关键字的日志列表
