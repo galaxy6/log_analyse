@@ -54,7 +54,7 @@ then
 elif [ $1 == "act1" ]
 then
 	echo -e "正在统计具有攻击行为的ip的次数和值"
-	awk -F "|" '/and |and%20|and\+|or |or%20|or\+||--|select|if\(|sleep\(|benchmark|union|order by|<|>|javascript|data:|vbscript|expression|onerror|onmouserover|onload|eval\(|\.\.\/|WEB-INF/|\/etc|exec\(|acunetix-wvs|Appscan|netsparke/{a[$1]+=1}END{for(i in a){print a[i]" " i;}}' $2
+	awk -F "|" '/and |and%20|and\+|or |or%20|or\+|--|select|if\(|sleep\(|benchmark|union|order by|<|>|javascript|data:|vbscript|expression|onerror|onmouserover|onload|eval\(|\.\.\/|WEB-INF/|\/etc|exec\(|acunetix-wvs|Appscan|netsparke/{a[$1]+=1}END{for(i in a){print a[i]" " i;}}' $2
 
 elif [ $1 == "act2" ]
 then
