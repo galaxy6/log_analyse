@@ -33,6 +33,11 @@ then
 	exit
 fi
 
+if [ ! -d "log" ]
+then
+	mkdir log
+fi
+
 echo "[*] Starting ..."
 
 if  [ $1 == "xss" ] 
